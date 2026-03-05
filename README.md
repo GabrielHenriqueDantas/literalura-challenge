@@ -2,6 +2,7 @@ Literalura 📚 - Challenge Alura Backend
 
 O Literalura é uma aplicação de console desenvolvida em Java com Spring Boot, que permite a interação com a API Gutendex para criar um catálogo de livros personalizado. O projeto foca em persistência de dados, consumo de APIs REST e organização lógica de informações.
 
+
 🚀 Funcionalidades
 
 O sistema oferece um menu interativo com as seguintes operações:
@@ -16,13 +17,24 @@ Filtro de Autores Vivos: Permite consultar quais autores estavam vivos em um det
 
 Filtro por Idioma: Lista as obras registradas de acordo com a sigla do idioma (ex: pt, en, es).
 
+
+
 🛠️ Tecnologias Utilizadas
+
 Tecnologia	Finalidade
+
 Java 17	Linguagem principal do projeto
+
 Spring Boot 3	Framework para agilizar o desenvolvimento e configuração
+
 Spring Data JPA	Abstração para facilitar a comunicação com o banco de dados
+
 PostgreSQL	Banco de dados relacional para persistência dos dados
+
 Jackson	Biblioteca para desserialização de JSON da API Gutendex
+
+
+
 📋 Pré-requisitos e Configuração
 
 Para rodar o projeto localmente, siga os passos:
@@ -31,7 +43,8 @@ Ter o PostgreSQL instalado e rodando.
 
 Criar um banco de dados chamado literalura.
 
-Configurar as credenciais no arquivo application.properties:
+
+⚙️Configurar as credenciais no arquivo application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
 spring.datasource.username=seu_usuario
